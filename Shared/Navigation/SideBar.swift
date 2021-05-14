@@ -1,8 +1,8 @@
 //
 //  Sidebar.swift
-//  DesignForiOS14
+//  Shared
 //
-//  Created by Sam on 2021/5/11.
+//  Created by Sam on 2021/5/13.
 //
 
 import SwiftUI
@@ -52,5 +52,6 @@ struct Sidebar_Previews: PreviewProvider {
         Sidebar()
     }
 }
+
 
 

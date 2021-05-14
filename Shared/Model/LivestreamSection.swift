@@ -1,8 +1,8 @@
 //
 //  LivestreamSection.swift
-//  DesignCodeUniversal
+//  Shared
 //
-//  Created by Meng To on 7/9/20.
+//  Created by Sam on 2021/5/13.
 //
 
 import SwiftUI

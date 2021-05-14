@@ -1,6 +1,6 @@
 //
 //  CourseDetail.swift
-//  DesignForiOS14
+//  Shared
 //
 //  Created by Sam on 2021/5/13.
 //
@@ -15,7 +15,6 @@ struct CourseDetail: View {
     #else
     var cornerRadius: CGFloat = 0
     #endif
-    
     var body: some View {
         #if os(iOS)
         content
@@ -24,7 +23,6 @@ struct CourseDetail: View {
         content
         #endif
     }
-    
     var content: some View {
         VStack {
             ScrollView {

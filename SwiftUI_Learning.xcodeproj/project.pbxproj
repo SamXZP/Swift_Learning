@@ -38,7 +38,6 @@
 		FEF5E624264D1B8F00DBCDC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF5E607264D1B8E00DBCDC9 /* Preview Assets.xcassets */; };
 		FEF5E625264D1B8F00DBCDC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF5E607264D1B8E00DBCDC9 /* Preview Assets.xcassets */; };
 		FEF5E626264D1B8F00DBCDC9 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5E609264D1B8E00DBCDC9 /* Global.swift */; };
-		FEF5E627264D1B8F00DBCDC9 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5E609264D1B8E00DBCDC9 /* Global.swift */; };
 		FEF5E62A264D1B8F00DBCDC9 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5E60C264D1B8E00DBCDC9 /* SideBar.swift */; };
 		FEF5E62B264D1B8F00DBCDC9 /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5E60C264D1B8E00DBCDC9 /* SideBar.swift */; };
 		FEF5E62C264D1B8F00DBCDC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF5E60D264D1B8E00DBCDC9 /* ContentView.swift */; };
@@ -142,7 +141,6 @@
 			isa = PBXGroup;
 			children = (
 				FEF5E5BA264D1B6000DBCDC9 /* Shared */,
-				FEF5E638264D1D3200DBCDC9 /* VC */,
 				FEF5E5C4264D1B6300DBCDC9 /* iOS */,
 				FEF5E5CB264D1B6300DBCDC9 /* macOS */,
 				FEF5E5D5264D1B6300DBCDC9 /* Tests iOS */,
@@ -154,13 +152,14 @@
 		FEF5E5BA264D1B6000DBCDC9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				FEF5E639264D1D5000DBCDC9 /* Resource */,
+				FEF5E606264D1B8E00DBCDC9 /* Preview Content */,
 				FEF5E608264D1B8E00DBCDC9 /* Global */,
+				FEF5E639264D1D5000DBCDC9 /* Resource */,
 				FEF5E5FA264D1B8E00DBCDC9 /* Item */,
 				FEF5E5FD264D1B8E00DBCDC9 /* Model */,
 				FEF5E60B264D1B8E00DBCDC9 /* Navigation */,
-				FEF5E606264D1B8E00DBCDC9 /* Preview Content */,
 				FEF5E5F8264D1B8E00DBCDC9 /* Tool */,
+				FEF5E638264D1D3200DBCDC9 /* VC */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -179,6 +178,7 @@
 		FEF5E5C4264D1B6300DBCDC9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FEF5E609264D1B8E00DBCDC9 /* Global.swift */,
 				FEF5E63C264D275100DBCDC9 /* VisualEffectBlur.swift */,
 				FEF5E5C5264D1B6300DBCDC9 /* Info.plist */,
 			);
@@ -258,7 +258,6 @@
 			isa = PBXGroup;
 			children = (
 				FEF5E5BB264D1B6000DBCDC9 /* SwiftUI_LearningApp.swift */,
-				FEF5E609264D1B8E00DBCDC9 /* Global.swift */,
 			);
 			path = Global;
 			sourceTree = "<group>";
@@ -305,6 +304,8 @@
 			dependencies = (
 			);
 			name = "SwiftUI_Learning (iOS)";
+			packageProductDependencies = (
+			);
 			productName = "SwiftUI_Learning (iOS)";
 			productReference = FEF5E5C2264D1B6300DBCDC9 /* SwiftUI_Learning.app */;
 			productType = "com.apple.product-type.application";
@@ -396,6 +397,8 @@
 				Base,
 			);
 			mainGroup = FEF5E5B5264D1B5F00DBCDC9;
+			packageReferences = (
+			);
 			productRefGroup = FEF5E5C3264D1B6300DBCDC9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -482,7 +485,6 @@
 				FEF5E61F264D1B8F00DBCDC9 /* Download.swift in Sources */,
 				FEF5E613264D1B8F00DBCDC9 /* CourseItem.swift in Sources */,
 				FEF5E62D264D1B8F00DBCDC9 /* ContentView.swift in Sources */,
-				FEF5E627264D1B8F00DBCDC9 /* Global.swift in Sources */,
 				FEF5E61B264D1B8F00DBCDC9 /* TutorialSection.swift in Sources */,
 				FEF5E632264D1BA100DBCDC9 /* CourseList.swift in Sources */,
 				FEF5E5E5264D1B6300DBCDC9 /* SwiftUI_LearningApp.swift in Sources */,

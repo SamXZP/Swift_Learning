@@ -1,8 +1,8 @@
 //
 //  CourseList.swift
-//  DesignForiOS14
+//  Shared
 //
-//  Created by Sam on 2021/5/12.
+//  Created by Sam on 2021/5/13.
 //
 
 import SwiftUI

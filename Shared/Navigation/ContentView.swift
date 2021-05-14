@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  DesignForiOS14
+//  Shared
 //
-//  Created by Sam on 2021/5/11.
+//  Created by Sam on 2021/5/13.
 //
 
 import SwiftUI
@@ -21,8 +21,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            ContentView()
-        }
+        ContentView()
     }
 }
