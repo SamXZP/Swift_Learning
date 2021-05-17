@@ -15,6 +15,8 @@ struct CourseDetail: View {
     #else
     var cornerRadius: CGFloat = 0
     #endif
+    
+    @State var showPresent: Bool = false
     var body: some View {
         #if os(iOS)
         content
@@ -32,7 +34,12 @@ struct CourseDetail: View {
                 VStack {
                     ForEach(courseSections) { item in
                         CourseRow(item: item)
-                        Divider()
+                            .sheet(isPresented: $showPresent){
+                                CouresSectionDetail()
+                            }
+                            .onTapGesture {
+                                showPresent = true
+                            }
                     }
                 }
                 .padding()
